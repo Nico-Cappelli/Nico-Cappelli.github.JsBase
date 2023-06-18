@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif; 
+}
+
+body{
+    background-image: url('../img/sfondo.jpg');
+}
+
+.head{
+    display: flex;
+    margin: 50px;
+    font-size: 200%;
+    justify-content: center;
+}
+
+.tBody {
+    display: flex;
+    margin-top: 60px;
+align-items: center;
+flex-direction: column;
+}
+
+.subtitle{
+    display: flex;
+    justify-content: center;
+    font-size: 250%;
+}
+
+.count {
+    display: flex;
+    word-wrap: break-word;
+    width: auto;
+    height: auto;
+    padding: 4px;
+    border: 0px;
+    border-radius: 50%;
+    justify-content:center;
+    text-align: center;
+    font-size: 100px;
+    background-color: black;
+    color: #49ba37;
+    margin-top: 50px;
+}
+
+.lBody {
+   
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+button{
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    font-size: 250%;
+    border-radius: 10%;
+    color: #49ba37;
+    background-color: black;
+    border: 0px;
+}
