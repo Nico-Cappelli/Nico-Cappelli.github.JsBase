@@ -31,8 +31,8 @@ const DIV_PLUS =create("lBody", "div", "", "divPlus", "divPlus");
 const DEC_BTN = create("divMinus", "button", "-", "minus", "");
 const INC_BTN = create("divPlus", "button", "+", "plus", "" );
 
-
-const buttonBox = document.getElementById("lBody"); //costante del div dove avviene il click
+//costante del div dove avviene il click
+const buttonBox = document.getElementById("lBody"); 
 
 let counter = 0; //costante del contatore
 
